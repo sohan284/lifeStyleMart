@@ -8,7 +8,7 @@ const SunnahLogo = () => {
     }
     return (
         <div className='flex justify-center'>
-        <img onClick={navigateToHome} className='w-48 ml-5' src="https://i.ibb.co/GT1RTkC/amalan-sunnah-removebg-preview.png" alt="" />
+        <img onClick={navigateToHome} className='w-48 ml-5' src="https://i.ibb.co/10QD21D/martLogo.png" alt="" />
         </div>
     );
 };

@@ -3,13 +3,16 @@ import { Link, Outlet } from 'react-router-dom';
 import Footer2 from '../../Shared/Footer2';
 
 import Header from './../../Shared/Header';
+import Navigation from '../../Shared/Navigation';
 
 
 const Home = () => {
 
     return (
-        <div className=' mx-auto container'>
-            <Header></Header>
+      <div>
+        <Navigation/>
+          <div className=' mx-auto container'>
+           
             <div className='mt-5'>
                 <div className="drawer  drawer-mobile">
                     <input id="dashboard-sidebar" type="checkbox" className="drawer-toggle" />
@@ -77,9 +80,11 @@ const Home = () => {
                
             </div>
             <hr className='my-5' />
-         <Footer2></Footer2>
+         
 
         </div>
+        <Footer2></Footer2>
+      </div>
     );
 };
 

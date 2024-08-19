@@ -13,7 +13,7 @@ const Products = () => {
     
     return (
         <div>
-            <form className='flex justify-center absolute lg:top-24 top-[120px] left-[20%] lg:left-[40%]'>
+            {/* <form className='flex justify-center absolute lg:top-24 top-[120px] left-[20%] lg:left-[40%]'>
                 <label htmlFor="default-search" className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-gray-300">Search</label>
                 <div className="relative">
                     <div className="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
@@ -23,7 +23,7 @@ const Products = () => {
 
                     <button onClick={handleSearch} className="text-white button absolute right-1 top-1  bottom-1 lg:bottom-1.5   focus:ring-4 focus:outline-none font-medium rounded-full  text-sm lg:px-5 px-3  dark:bg-primary hover:bg-green-800 dark:focus:ring-green-700">Search</button>
                 </div>
-            </form>
+            </form> */}
         
                     <div className="carousel banner w-full">
                         <div id="slide1" className="carousel-item relative w-full">

@@ -6,12 +6,13 @@ import {getAuth} from "firebase/auth"
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDTX5BhWnMMQoSXhfrmnw-GfzJrwqBxEqo",
-  authDomain: "as-sunnah-store.firebaseapp.com",
-  projectId: "as-sunnah-store",
-  storageBucket: "as-sunnah-store.appspot.com",
-  messagingSenderId: "1000940797240",
-  appId: "1:1000940797240:web:fcab3992d61294d76815cd"
+  apiKey: "AIzaSyCIKpddfLz7Mwjv6AijayBwVbjib-Ujz_k",
+  authDomain: "lifestylemart-d7068.firebaseapp.com",
+  projectId: "lifestylemart-d7068",
+  storageBucket: "lifestylemart-d7068.appspot.com",
+  messagingSenderId: "537118320040",
+  appId: "1:537118320040:web:2125e592c0fff8143ce99d",
+  measurementId: "G-DKK33PF0SK"
 };
 
 // Initialize Firebase

@@ -38,13 +38,13 @@
   color: #f7ffb1;
 }
 .buyButton{
-  background: linear-gradient(30deg, #d1a460 , rgb(170, 54, 0) 100%);
+  background: linear-gradient(0deg, #606060 , #606060 100%);
   border: 1px solid black;
-  color: white;
+  color: #D6ED17;
 }
 .buyButton:hover{
-  background: linear-gradient(30deg, #df982e ,rgb(170, 54, 0) 70%);
-  color: #f7ffb1;
+  background: linear-gradient(30deg, #D6ED17 , #D6ED17 70%);
+  color: #606060;
 }
 .cBtn{
   background: linear-gradient( #ffffff , #dfdfdf 100%);
