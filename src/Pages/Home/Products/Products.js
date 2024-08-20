@@ -25,7 +25,7 @@ const Products = () => {
                 </div>
             </form> */}
         
-                    <div className="carousel banner w-full">
+                    {/* <div className="carousel banner w-full">
                         <div id="slide1" className="carousel-item relative w-full">
                             <img src=" https://i.ibb.co/7W6K8kB/Visit-www-reallygreatsite-com.jpg" className="w-full" alt='' />
                             <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -54,10 +54,10 @@ const Products = () => {
                                 <a href="#slide1" className="btn btn-circle">❯</a>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
 
 
-            <div className='grid lg:grid-cols-2 sm:grid-cols-2 mt-3'>
+            <div className='grid lg:grid-cols-7 md:grid-cols-3 gap-3 grid-cols-2 mx-1 mt-24'>
 
                 {
                     products.map(product => <Product key={product.id} search={search} product={product}></Product>)

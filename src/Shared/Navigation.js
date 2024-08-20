@@ -11,11 +11,13 @@ import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
+import { useNavigate } from 'react-router-dom';
 
 const pages = ['Products', 'Pricing', 'Blog'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 function Navigation() {
+  const navigate = useNavigate()
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
 
@@ -33,6 +35,9 @@ function Navigation() {
   const handleCloseUserMenu = () => {
     setAnchorElUser(null);
   };
+  const navigateToHome =()=>{
+    navigate('/')
+  }
 
   return (
     <AppBar position="static fixed z-20 bg-primary top-0" sx={{ backgroundColor: '#505050'}}>
@@ -54,7 +59,7 @@ function Navigation() {
             }}
           >
            <img
-        //   onClick={navigateToHome}
+          onClick={navigateToHome}
           className="w-24"
           src="https://i.ibb.co/10QD21D/martLogo.png"
           alt=""
@@ -114,7 +119,7 @@ function Navigation() {
             }}
           >
            <img
-        //   onClick={navigateToHome}
+          onClick={navigateToHome}
           className="w-24"
           src="https://i.ibb.co/10QD21D/martLogo.png"
           alt=""
