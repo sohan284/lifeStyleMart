@@ -7,13 +7,13 @@ const Footer = () => {
     navigate("/");
   };
   return (
-    <footer className="footer footer-center p-10 bg-gray-300 text-base-content">
+    <footer className="footer footer-center pb-5 bg-gray-300 text-base-content">
       <div>
         <div>
           <img
             onClick={navigateToHome}
             className="w-48 ml-5"
-            src="https://i.ibb.co/GT1RTkC/amalan-sunnah-removebg-preview.png"
+            src="https://i.ibb.co/10QD21D/martLogo.png"
             alt=""
           />
         </div>{" "}
